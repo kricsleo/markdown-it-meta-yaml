@@ -8,7 +8,9 @@
 
 [![NPM version](https://img.shields.io/npm/v/markdown-it-meta-yaml?color=a1b858&label=)](https://www.npmjs.com/package/markdown-it-meta-yaml)
 
-Parsing YAML-formatted metadata from markdown files and converting it into JSON-formatted data. 🥳 All YAML values are supported - powered by [js-yaml](https://github.com/nodeca/js-yaml)
+Parsing YAML-formatted metadata from markdown files and converting it into JSON-formatted data. 
+
+🥳 All YAML values are supported - powered by [js-yaml](https://github.com/nodeca/js-yaml)
 
 ```markdown
 ---
