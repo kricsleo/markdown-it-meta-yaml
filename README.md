@@ -41,6 +41,10 @@ tags:
 
 Use it as a plugin for [markdown-it](https://github.com/markdown-it/markdown-it)
 
+```bash
+npm install markdown-it-meta-yaml
+```
+
 ```ts
 import MarkdownIt from 'markdown-it'
 import markdownItMetaYaml from 'markdown-it-meta-yaml'
