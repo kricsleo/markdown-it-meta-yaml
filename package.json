@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-yaml",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "packageManager": "pnpm@7.30.0",
   "description": "Markdown-It plugin for parsing YAML front matter.",
   "author": "Kricsleo <kricsleo@163.com>",
