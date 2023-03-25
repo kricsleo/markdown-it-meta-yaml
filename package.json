@@ -1,17 +1,17 @@
 {
-  "name": "markdown-it-yaml",
+  "name": "markdown-it-meta-yaml",
   "type": "module",
   "version": "0.0.1",
   "packageManager": "pnpm@7.30.0",
   "description": "Markdown-It plugin for parsing YAML front matter.",
   "author": "Kricsleo <kricsleo@163.com>",
   "license": "MIT",
-  "homepage": "https://github.com/kricsleo/markdown-it-yaml#readme",
+  "homepage": "https://github.com/kricsleo/markdown-it-meta-yaml#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kricsleo/markdown-it-yaml.git"
+    "url": "git+https://github.com/kricsleo/markdown-it-meta-yaml.git"
   },
-  "bugs": "https://github.com/kricsleo/markdown-it-yaml/issues",
+  "bugs": "https://github.com/kricsleo/markdown-it-meta-yaml/issues",
   "keywords": [
     "markdown-it",
     "markdown",
