@@ -1,0 +1,51 @@
+{
+  "name": "markdown-it-yaml",
+  "type": "module",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.30.0",
+  "description": "",
+  "author": "Kricsleo <kricsleo@163.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kricsleo/markdown-it-yaml#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kricsleo/markdown-it-yaml.git"
+  },
+  "bugs": "https://github.com/kricsleo/markdown-it-yaml/issues",
+  "keywords": [],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub",
+    "lint": "eslint .",
+    "prepublishOnly": "nr build",
+    "release": "bumpp && npm publish",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "bumpp": "^9.0.0",
+    "typescript": "^5.0.2",
+    "unbuild": "^1.1.2"
+  }
+}
